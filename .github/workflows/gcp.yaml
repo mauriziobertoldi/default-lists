@@ -3,7 +3,7 @@ name: Deploy to GCP cloud storage
 on:
   push:
     branches:
-      - cloudstorage-ci
+      - main
 jobs:
   job_id:
     runs-on: ubuntu-latest
