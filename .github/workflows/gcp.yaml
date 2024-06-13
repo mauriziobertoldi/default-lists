@@ -27,4 +27,4 @@ jobs:
       uses: 'google-github-actions/upload-cloud-storage@v2'
       with:
         path: 'src/'
-        destination: 'gs://bera-static-asset'
+        destination: 'bera-static-asset'
