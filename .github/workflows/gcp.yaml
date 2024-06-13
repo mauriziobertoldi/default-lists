@@ -19,6 +19,7 @@ jobs:
     - id: 'auth'
       uses: 'google-github-actions/auth@v2'
       with:
+        project_id: '650636884597'  
         workload_identity_provider: 'projects/650636884597/locations/global/workloadIdentityPools/oidc-testnet-svc-01-pool/providers/gh-ci-oidc-provider'
         service_account: 'github-action@prj-berachain-testnet-svc-01.iam.gserviceaccount.com'
 
