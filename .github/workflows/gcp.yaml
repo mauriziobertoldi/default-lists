@@ -1,0 +1,29 @@
+name: Deploy to GCP cloud storage
+
+on:
+  push:
+    branches:
+      - cloudstorage-ci
+jobs:
+  job_id:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+    - id: 'checkout'
+      uses: 'actions/checkout@v4'
+
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: 'projects/341806074811/locations/global/workloadIdentityPools/oidc-automation-st-01-pool/providers/gh-oidc-provider'
+        service_account: 'sa-terraform@prj-berachain-automation-st-01.iam.gserviceaccount.com'
+
+    - id: 'upload-folder'
+      uses: 'google-github-actions/upload-cloud-storage@v2'
+      with:
+        path: '${GITHUB_WORKSPACE}/src/'
+        destination: 'gs://bera-static-asset'
