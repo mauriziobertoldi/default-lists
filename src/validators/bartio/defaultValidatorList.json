@@ -2,13 +2,29 @@
   "name": "Berachain Bartio Validator List",
   "validators": [
     {
-    "id": "0x6aB7C955d64Dd7A1fbAffD9DC27E8425Ddb7441b",
-    "logoURI": "https://x.com/Beranames/photo",
-    "name": "Beranames",
-    "description": "Official Name Service of @Berachain",
-    "website": "https://www.beranames.com",
-    "twitter": "https://x.com/Beranames"
-   },
+      "id": "0x6aB7C955d64Dd7A1fbAffD9DC27E8425Ddb7441b",
+      "logoURI": "https://x.com/Beranames/photo",
+      "name": "Beranames",
+      "description": "Official Name Service of @Berachain",
+      "website": "https://www.beranames.com",
+      "twitter": "https://x.com/Beranames"
+    },
+    {
+      "id": "0xd4963136Cd28CC1c3213F0499A62103171f3468B",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/huginn.png",
+      "name": "Huginn",
+      "description": "Professional staking service. 7/24 monitoring and best uptime. Huginn is an organization that aims to teach its community about Cosmos SDK and Blockchain.",
+      "website": "https://huginn.tech/",
+      "twitter": "https://x.com/HuginnStake"
+    },
+    {
+      "id": "0x123B9D8D186003b566c93e960c6705A968C0B664",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/foundry.png",
+      "name": "Foundry",
+      "description": "Foundry works to empower a decentralized infrastructure. We are protocol agnostic and seek to support like minded blockchain entrepreneurs who share our mission to advance the industry",
+      "website": "https://foundrydigital.com",
+      "twitter": "https://x.com/FoundryServices"
+    },
     {
       "id": "0x29ECe5efcae11206474b16F29bb7C73B3F33cF6e",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/ghost.png",
@@ -1006,6 +1022,14 @@
       "description": "Twinstake is an institutional-grade, non-custodial staking provider designed and built in collaboration with leaders in the digital assets space. The platform offers industry leading performance, institutional-grade security and uncompromising Know Your Client (KYC) procedures.",
       "website": "https://twinstake.io",
       "twitter": "https://x.com/twinstake_io"
+    },
+    {
+      "id": "0x1A594e7aCb60a4fA0C9d7525695ef7524D047525",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1723065834/src/assets/brown-bear.png",
+      "name": "Brownstake",
+      "description": "Brownstake provides staking services for all friends at high rates and low returns.",
+      "website": "https://www.brownbear.com/",
+      "twitter": "https://x.com/BrownBear__Bear"
     }
   ]
 }
